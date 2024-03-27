@@ -1,0 +1,43 @@
+.todo-task {
+	width: 80%;
+	margin: 1rem;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f0e9e5;
+	font-size: 2.5rem;
+	border-radius: 10px;
+}
+
+.todo-icons {
+	display: flex;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.icon {
+	margin: 0.7rem;
+	transition: 0.2s all;
+}
+
+.icon:hover {
+	transform: scale(1.3);
+}
+
+.check-icon {
+	color: #378b29;
+}
+
+.edit-icon {
+	color: rgb(87, 85, 85);
+}
+
+.delete-icon {
+	color: rgb(180, 56, 34);
+}
+
+.done {
+	text-decoration: line-through;
+	color: gray;
+}
